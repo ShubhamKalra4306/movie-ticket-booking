@@ -1,0 +1,119 @@
+total=0
+while True:
+    print("1.RRR")
+    print("2.Ramayan")
+    print("3.Exit")
+    x=int(input("enter your choice "))
+    if(x==1):
+        while True:
+            print("1.09AM-12PM")
+            print("2.01PM-03PM")
+            print("3.exit")
+            n=int(input("enter your show timing "))
+            if(n==1):
+                while True:
+                    print("1.silver=150")
+                    print("2.Gold=200")
+                    print("3.Platinum=300")
+                    print("4.exit")
+                    s=int(input("enter your choice "))
+                    if(s==1):
+                        q=int(input("enter your quantity "))
+                        total=total+q*150
+                        print("pay your bill",total)
+                    elif(s==2):
+                        q=int(input("enter your quantity "))
+                        total=total+q*200
+                        print("pay your bill",total)
+                    elif(s==3):
+                        q=int(input("enter your quantity "))
+                        total=total+q*300
+                        print("pay your bill",total)
+                    elif(s==4):
+                        break
+            elif(n==2):
+                 while True:
+                    print("1.silver=150")
+                    print("2.Gold=200")
+                    print("3.Platinum=300")
+                    print("4.exit")
+                    s=int(input("enter your choice "))
+                    if(s==1):
+                        q=int(input("enter your quantity "))
+                        total=total+q*150
+                        print("pay your bill",total)
+                    elif(s==2):
+                        q=int(input("enter your quantity "))
+                        total=total+q*200
+                        print("pay your bill",total)
+                    elif(s==3):
+                        q=int(input("enter your quantity "))
+                        total=total+q*300
+                        print("pay your bill",total)
+                    elif(s==4):
+                        break
+            elif(n==3):
+                 break
+    elif(x==2):
+        while True:
+            print("1.09AM-12PM")
+            print("2.01PM-03PM")
+            print("3.exit")
+            n=int(input("enter your show timing "))
+            if(n==1):
+                while True:
+                    print("1.silver=150")
+                    print("2.Gold=200")
+                    print("3.Platinum=300")
+                    print("4.exit")
+                    s=int(input("enter your choice "))
+                    if(s==1):
+                        q=int(input("enter your quantity "))
+                        total=total+q*150
+                        print("pay your bill",total)
+                    elif(s==2):
+                        q=int(input("enter your quantity "))
+                        total=total+q*200
+                        print("pay your bill",total)
+                    elif(s==3):
+                        q=int(input("enter your quantity "))
+                        total=total+q*300
+                        print("pay your bill",total)
+                    elif(s==4):
+                        break
+            elif(n==2):
+                 while True:
+                    print("1.silver=150")
+                    print("2.Gold=200")
+                    print("3.Platinum=300")
+                    print("4.exit")
+                    s=int(input("enter your choice "))
+                    if(s==1):
+                        q=int(input("enter your quantity "))
+                        total=total+q*150
+                        print("pay your bill",total)
+                    elif(s==2):
+                        q=int(input("enter your quantity "))
+                        total=total+q*200
+                        print("pay your bill",total)
+                    elif(s==3):
+                        q=int(input("enter your quantity "))
+                        total=total+q*300
+                        print("pay your bill",total)
+                    elif(s==4):
+                        break
+            elif(n==3):
+               break
+    elif(x==3):
+        break
+    
+    
+print("your total bill is=",total)
+        
+    
+                
+                
+                            
+                                  
+                                  
+                            
